@@ -1,0 +1,232 @@
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+    margin: 0;
+    width: 1000px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Fjalla One' ,sans-serif;
+}
+
+h1{
+    line-height: 1.5em;
+    font-weight: 300;
+    text-decoration:wavy;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+h1 strong{
+    color: #F7CE03;
+}
+
+h2{
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #026FFF;
+    margin-bottom: 40px;
+
+}
+
+.travel-details{
+    width: 500px;
+}
+
+.section-summary{
+    background-image:url('../images/concierto.jpg');
+    background-color: black;
+    color: white;
+    height: 300px;
+    background-size: 500px 300px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+.section-sumary-description {
+    width: 400px;
+}
+
+article{
+    border: 1px gray solid;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article img{
+    margin: 20px;
+    padding: 20px;
+}
+
+.travel-details p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.travels{
+    display: flex;
+}
+
+.article-details{
+    border: 1px gray solid;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 480px;
+    background-color: lightblue ;
+    
+}
+
+.article-details h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.article-details img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-details a{
+    color:  #026FFF;
+    border: 1px solid;
+    margin: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.article-details-text{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-top: -70px;
+    position: relative;
+    
+
+}
+
+.section-travels{
+    padding: 20px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 58px;
+    margin: 0;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+figure{
+    margin: 0;
+}
+
+ol, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer{
+    background-color: #1C2331;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.contact{
+    background-color:  #026FFF;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact h2{
+    color: white;
+}
+
+.social{
+
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+    
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+
+.social-link.git{
+    background-image: url('../images/github.svg');
+}
+
